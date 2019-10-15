@@ -212,7 +212,7 @@ h3 {
 }
 
 .members {
-    height: 500px;
+    height: 400px;
     padding: 80px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -245,4 +245,97 @@ h3 {
     justify-content: start;
     padding: 0;
     margin: 0;
+}
+
+.cu {
+    font-size: 26px;
+}
+
+.cu2 {
+    font-size: 48px;
+    position: relative;
+    top: -50px;
+    right: -190px;
+}
+
+.person {
+    background-color: whitesmoke;
+}
+
+.faces {
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.linked-content {
+    background-color: whitesmoke;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.column > h4 {
+    font-family: 'Hepta Slab', serif;
+    padding-inline-start: 11px;
+}
+
+.links {
+    font-family: 'Hepta Slab', serif;
+}
+
+.column > ul > li > a {
+    text-decoration: none;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.column > ul > li {
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    padding-inline-start: 0;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+}
+
+.newsletter {
+    background-color: black;
+    color: whitesmoke;
+    font-size: 300px;
+}
+
+.members2 {
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: white;
+    margin: auto;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+footer > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-weight: bold;
+}
+
+footer > div > span {
+    font-size: 200px;
+}
+footer > div > p {
+    width: 600px;
+    text-align: center;
 }
