@@ -57,12 +57,15 @@ nav > .icon {
     font-size: 14px;
 }
 
+main {
+    width: 100%;
+}
+
 .container {
     background-color: rgba(0, 0, 0, 0.2);
     display: grid;
     font-family: 'Raleway', sans-serif;
-    grid-template-columns: repeat(2, minmax(min-content, 800px));
-    width: 100%;
+    grid-template-columns: repeat(2, minmax(min-content, auto));
 }
 
 .container > * {
