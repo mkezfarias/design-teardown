@@ -328,7 +328,7 @@ footer > div > span {
   font-size: 200px;
 }
 
-footer > div > p {
+.para {
   width: 600px;
   text-align: center;
 }
