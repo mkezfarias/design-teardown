@@ -190,7 +190,7 @@ h3 {
   transition-duration: 50ms;
 }
 
-.post > p > a {
+.post > article > h3 > a {
   text-decoration: none;
   color: black;
   font-size: 30px;
@@ -198,7 +198,7 @@ h3 {
   margin: 20px 0;
 }
 
-.post > p {
+.post > article {
   padding: 40px;
 }
 
